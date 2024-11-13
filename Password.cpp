@@ -12,7 +12,7 @@ using std::string;
 int Password::count_leading_characters(string phrase){
   int repetition = 0; // changed from 1 to 0
   int index = 0;
-  
+  if(phrase.length()==0){return 0;}
   while( index < phrase.length()-1 && phrase[index] == phrase[index+1] ){
     repetition++;
     index++;
