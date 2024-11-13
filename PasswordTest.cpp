@@ -14,6 +14,10 @@ class PasswordTest : public ::testing::Test
 		virtual void TearDown(){} //clean up after each test, (before destructor)
 };
 
+<<<<<<< HEAD
+=======
+// has_mixed_case tests
+>>>>>>> 07d43ebb58811f385f85b7d14c4186e8cc77607d
 TEST(PasswordTest, mixed_case_password)
 {
 	Password my_password;
